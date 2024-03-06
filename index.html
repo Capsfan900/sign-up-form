@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="left">
+            <div class="logo-container">
+                <h2>Blueberry Nebula AI</h2>
+            </div>
+            <div id="logo"></div>
+            <div class="logo-glow"></div>
+            <div class="picture-credits">
+                <p>Photo by <a
+                        href="https://unsplash.com/photos/desert-under-blue-sky-during-daytime-6KQETG8J-zI">Gilbert
+                        Ng</a> on <a href="https://unsplash.com/">Unsplash</a></p>
+            </div>
+        </div>
+        <div class="right">
+            <div class="top-text">
+                <p class="top-text-one">
+                    This is not a real online service! Sign up for the next big LLM trained by Aliens and Joe Biden
+                </p>
+                <p class="top-text-two">
+                    Sign up <em>now</em> to get early access!
+                    <br>
+                    <br>
+                    Very Berry-<em>Much AI </em>-Tasty Time
+                </p>
+            </div>
+            <div class="form-container">
+                <p class="form-title">Let's do this!</p>
+                <form action="#" method="post" class="form" id="siteform">
+                    <div class="form-element">
+                        <label for="username">User Name</label>
+                        <input type="text" name="username" id="username" placeholder="Jack" required>
+                    </div>
+                    <div class="form-element">
+                        <label for="lastname">Last Name</label>
+                        <input type="text" name="lastname" id="lastname" placeholder="Frost" required>
+                    </div>
+                    <div class="form-element">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" required>
+                    </div>
+                    <div class="form-element">
+                        <label for="phone">Phone Number</label>
+                        <input type="number" name="phone" id="phone" required>
+                    </div>
+                    <div class="form-element">
+                        <label for="password1">Password</label>
+                        <input type="password" name="password1" id="password1" required>
+                    </div>
+                    <div class="form-element">
+                        <label for="password2">Confirm Password</label>
+                        <input type="password" name="password2" id="password2" required>
+                    </div>
+                    <span class="passwordmatch"></span>
+
+                </form>
+            </div>
+            <div class="bottom-elements">
+                <button type="submit" class="sub-button" form="siteform">Create Account</button>
+                <p class="bottom-text">
+                    Already have an account? <a href="#">Log in</a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js" defer></script>
+</body>
+
+</html>
